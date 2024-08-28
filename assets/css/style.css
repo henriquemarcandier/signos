@@ -1,0 +1,31 @@
+* {
+    margin: 0; /* espaçamento externo */
+    padding: 0; /* espaçamento interno */
+    box-sizing: border-box;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    text-align: center;
+}
+
+.body2{
+    background: linear-gradient(#980be9, #9198e5);
+    background-repeat: no-repeat;
+}
+
+.conteudo{
+    margin: auto; 
+    display: flex; 
+    justify-content: center;
+}
+
+.bg-success {
+--bs-bg-opacity: 1;
+background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+footer{
+    font-weight: bold;
+    font-size: 14px;
+}
