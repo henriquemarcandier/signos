@@ -14,15 +14,14 @@ html {
     background-repeat: no-repeat;
 }
 
+.logo{
+    height: 200px;
+}
+
 .conteudo{
     margin: auto; 
     display: flex; 
     justify-content: center;
-}
-
-.bg-success {
---bs-bg-opacity: 1;
-background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
 }
 
 footer{
