@@ -3,7 +3,7 @@ if (!isset($_POST['data_nascimento'])){
     ?>
     <script>
         alert('Envie a sua data de nascimento corretamente!');
-        location.href="index.php";
+        location.href="./";
     </script>
     <?php
 }
@@ -32,6 +32,7 @@ else{
     ?>
     <h1><?=$nomeSigno?></h1>
     <p><?=$descricao?></p>
+    <p><a href="./">Voltar</a></p>
     <?php
     include('footer.php');
 }

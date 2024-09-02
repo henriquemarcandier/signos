@@ -11,11 +11,9 @@ html {
 }
 
 .body2{
-    background: linear-gradient(#980be9, #9198e5);
-    background-repeat: no-repeat;
+    background: linear-gradient(#9089aa, #28257e);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .logo{
