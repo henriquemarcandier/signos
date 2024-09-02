@@ -7,15 +7,19 @@
 html {
     scroll-snap-type: y mandatory;
     text-align: center;
+    min-height: 100%;
 }
 
 .body2{
     background: linear-gradient(#980be9, #9198e5);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .logo{
-    height: 200px;
+    height:200px;
 }
 
 .conteudo{
