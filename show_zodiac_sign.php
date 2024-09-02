@@ -30,9 +30,11 @@ else{
             }
         }
     ?>
+    <main class="container">
     <h1><?=$nomeSigno?></h1>
-    <p><?=$descricao?></p>
-    <p><a href="./">Voltar</a></p>
+    <p style="text-align: justify"><?=$descricao?></p>
+    <p><a href="./" class="btn btn-danger">Voltar</a></p>
+    </main>
     <?php
     include('footer.php');
 }
