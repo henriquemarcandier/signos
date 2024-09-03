@@ -33,7 +33,7 @@ else{
     <main class="container">
     <h1><?=$nomeSigno?></h1>
     <p style="text-align: justify"><?=$descricao?></p>
-    <p><a href="./" class="btn btn-danger">Voltar</a></p>
+    <p><a href="javascript:history.back()" class="btn btn-danger">Voltar</a></p>
     </main>
     <?php
     include('footer.php');
