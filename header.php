@@ -10,6 +10,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
     <link rel="shortcut icon" type="image/ico" href="./assets/imgs/favicon.ico" sizes="128x128">
 </head>
 <body <?php if (preg_match('/show_zodiac_sign.php/', $_SERVER['REQUEST_URI'])){ ?>class='body2' <?php } ?>>
-<a href="https://github.com/henriquemarcandier/" target="_blank"><img src="./assets/imgs/logo.png" alt="Henrique Marcandier no Git Hub"
-title="Henrique Marcandier no Git Hub" class="logo"></a>
-<hr>
+    <div class="link_logo">
+        <a href="https://github.com/henriquemarcandier/" target="_blank"><img src="./assets/imgs/logo.png" alt="Henrique Marcandier no Git Hub" title="Henrique Marcandier no Git Hub" class="logo"></a>
+    </div>
+    <hr>

@@ -22,6 +22,11 @@ html {
 
 .logo{
     height:200px;
+    border-radius:25px;
+}
+
+.link_logo{
+    margin:20px
 }
 
 .conteudo{
